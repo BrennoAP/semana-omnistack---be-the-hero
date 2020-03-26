@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from "./Header";
+import Logon from "./Pages/Logon";
+//import { useState } from "react";
+import "./global.css";
 
 
 function App() {
+
   return (
-    <Header >semana omnistack</Header>
+    <Logon />
   );
 }
 
