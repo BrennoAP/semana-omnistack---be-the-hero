@@ -16,6 +16,7 @@ export default function Register()
     const [city,setCity] = useState("");
     const [uf,setUF] = useState("");
     const history = useHistory();
+    
    async function handleRegister(e)
    {
         

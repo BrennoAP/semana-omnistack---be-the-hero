@@ -19,7 +19,7 @@ export default function Logon()
             const response = await api.post("session", {id});
             localStorage.setItem("ongId",id);
             localStorage.setItem("ongName",response.data.name);
-            history.push("/profile");
+            history.push("/profile");   
 
         } catch (error) {
             alert("falha ao logar "+ error);

@@ -11,7 +11,7 @@ const incident = await connection("INCIDENTS")
 .where("ong_id", ong_id)
 .select("*");
 
-return response.json({incident});
+return response.json(incident);
 
 }
 
